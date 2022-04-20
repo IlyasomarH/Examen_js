@@ -10,7 +10,7 @@ let ecran2=document.querySelector('#Seconde_ecran')
 for(let i=0; i<20; i++ )
 {
 	btn[i].addEventListener('click', function(){
-	   if(btn[i].innerHTML=="Supp"){
+	   if(btn[i].innerHTML=="Effacer"){
 
 	   	// alert('supp')
 
@@ -74,7 +74,7 @@ for(let i=0; i<20; i++ )
 					ecran[j+2].innerHTML=btn[i].innerHTML
 				}
 				else{
-					alert('vous avez autorise Trois click')
+					alert('  Effacer pour ecrire un nouveau ')
 				}
 			}
 		
